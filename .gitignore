@@ -22,3 +22,7 @@ env/
 # 系统文件
 .DS_Store  # Mac
 Thumbs.db  # Windows
+
+# Jupyter Notebook 相关
+.ipynb_checkpoints/  # 忽略检查点文件夹
+*.ipynb_*  # 忽略临时文件.如 .ipynb_bak
